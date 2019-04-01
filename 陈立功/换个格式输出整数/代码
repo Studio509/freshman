@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+void output(int,int,int);
+int main()
+{
+	int n,i,j,k;
+	cout<<"input an integer:";
+	cin>>n;
+	i=n/100;
+	j=n%100/10;
+	k=n%10;
+	cout<<"output new format:";
+	output(i,j,k);
+	return 0;
+}
+void output(int i,int j,int k)
+{
+	int a;
+	for(;i>0;i--)
+	
+		cout<<"B";
+
+	for(;j>0;j--)
+	
+		cout<<"S";
+	
+	for(a=1;a<=k;a++)
+	
+		cout<<a;
+	cout<<endl;
+}
