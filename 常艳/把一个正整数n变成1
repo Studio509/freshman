@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int n,i=0;
+  cout<<"请输入任意一个不大于1000的正整数"<<endl;
+  cin>>n;
+  while(1)
+  {
+     if(n%2==0)
+    {
+      n=n/2;
+      i++;
+    }
+    else if(n>1&&n%2!=0)
+    {
+      n=((3*n)+1)/2;
+      i++;
+    }
+    else if(n==1)
+    {
+      cout<<"把n变成1需要"<<i<<"步"<<endl;
+      break;
+    }
+  }
+  return 0;
+}
