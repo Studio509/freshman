@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n,j=0;
+	cout<<"--------------卡拉兹猜想--------------"<<endl;
+	cout<<"请输入一个在1000以内的整数：";
+		cin>>n;
+	while(n!=1)
+	{
+		if(n%2==0)
+		{
+			n=n/2;
+			j++;
+		}
+		else
+			{
+		     n=(3*n+1)/2;
+		     j++;
+		    }
+	}
+	cout<<"一共要"<<j<<"步"<<endl;
+	return 0;
+}
