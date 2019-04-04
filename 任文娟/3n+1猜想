@@ -12,6 +12,6 @@ int main()
 	n=(3*n+1)/2;
      i++;
   }
-  cout<<n<<"需要"<<i<<"步才能得到n=1"<<endl;
+  cout<<"需要"<<i<<"步才能得到n=1"<<endl;
   return 0;
 }
