@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "挖掘机技术哪家强代码", "挖掘机技术哪家强代码\挖掘机技术哪家强代码.vcxproj", "{1752BC4A-8166-41D9-A63B-F0F38D3BB0AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1752BC4A-8166-41D9-A63B-F0F38D3BB0AF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1752BC4A-8166-41D9-A63B-F0F38D3BB0AF}.Debug|Win32.Build.0 = Debug|Win32
+		{1752BC4A-8166-41D9-A63B-F0F38D3BB0AF}.Release|Win32.ActiveCfg = Release|Win32
+		{1752BC4A-8166-41D9-A63B-F0F38D3BB0AF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
