@@ -12,6 +12,7 @@ int main()
 	   if(a=='\n')
 		   break;
 	}
+	system("cls");
 	for(j=0;j<i;j++)
 	{
 		if(c[j]==0)
