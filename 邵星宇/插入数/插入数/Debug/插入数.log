@@ -1,0 +1,30 @@
+﻿生成启动时间为 2019/4/7 22:41:27。
+     1>项目“C:\Users\86181\Desktop\插入数\插入数\插入数.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“C:\Users\86181\Desktop\插入数\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\插入数.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\v2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 4.cpp
+         4.cpp
+     1>c:\users\86181\desktop\插入数\插入数\4.cpp(5): warning C4101: “j”: 未引用的局部变量
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\插入数.exe.embed.manifest.res" "Debug\插入数_manifest.rc" 
+       Link:
+         e:\v2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\86181\Desktop\插入数\Debug\插入数.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\插入数.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\86181\Desktop\插入数\Debug\插入数.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\86181\Desktop\插入数\Debug\插入数.lib" /MACHINE:X86 "Debug\插入数.exe.embed.manifest.res"
+         Debug\4.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\插入数.exe.embed.manifest" /manifest "Debug\插入数.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\插入数.exe.embed.manifest.res" "Debug\插入数_manifest.rc" 
+       LinkEmbedManifest:
+         e:\v2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\86181\Desktop\插入数\Debug\插入数.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\插入数.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\86181\Desktop\插入数\Debug\插入数.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\86181\Desktop\插入数\Debug\插入数.lib" /MACHINE:X86 "Debug\插入数.exe.embed.manifest.res"
+         Debug\4.obj
+         插入数.vcxproj -> C:\Users\86181\Desktop\插入数\Debug\插入数.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\插入数.unsuccessfulbuild”。
+         正在对“Debug\插入数.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\86181\Desktop\插入数\插入数\插入数.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.71

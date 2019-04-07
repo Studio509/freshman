@@ -1,0 +1,19 @@
+﻿1>------ 已启动生成: 项目: 插入数, 配置: Debug Win32 ------
+1>生成启动时间为 2019/4/7 22:41:27。
+1>PrepareForBuild:
+1>  正在创建目录“C:\Users\86181\Desktop\插入数\Debug\”。
+1>InitializeBuildStatus:
+1>  正在创建“Debug\插入数.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+1>ClCompile:
+1>  4.cpp
+1>c:\users\86181\desktop\插入数\插入数\4.cpp(5): warning C4101: “j”: 未引用的局部变量
+1>LinkEmbedManifest:
+1>  插入数.vcxproj -> C:\Users\86181\Desktop\插入数\Debug\插入数.exe
+1>FinalizeBuildStatus:
+1>  正在删除文件“Debug\插入数.unsuccessfulbuild”。
+1>  正在对“Debug\插入数.lastbuildstate”执行 Touch 任务。
+1>
+1>生成成功。
+1>
+1>已用时间 00:00:01.71
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
