@@ -11,9 +11,9 @@ int main()
 	for(i=0;i<n;i++)
 	cin>>x[i];
 	for(i=0;i<n;i++)
-		if((x[i]=="PAT")||(x[i]=="XPATX")||(x[i]=="A"'A''P''A''T''A''A')||(x[i]=='P''A''A''T')||(x[i]=='A''A''P''A''A''T''A''A''A''A'))
-           cout<<"yes";
+		if(x[i]=="PAT"||x[i]=="XPATX"||x[i]=="AAPATAA"||x[i]=="PAAT"||x[i]=="AAPAATAAAA")
+           cout<<"yes"<<endl;
 		else 
-			cout<<"no";
+			cout<<"no"<<endl;
 	return 0;
 }
