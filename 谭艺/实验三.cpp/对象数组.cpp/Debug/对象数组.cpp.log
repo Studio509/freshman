@@ -1,0 +1,34 @@
+﻿生成启动时间为 2019/4/1 7:40:33。
+     1>项目“D:\551班 182055116 谭艺\对象数组.cpp\对象数组.cpp\对象数组.cpp.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\对象数组.cpp.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         d:\BaiduNetdiskDownload\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\对象数组.cpp.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt student.cpp "对象数组.cpp.cpp"
+         对象数组.cpp.cpp
+         student.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\BaiduNetdiskDownload\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\551班 182055116 谭艺\对象数组.cpp\Debug\对象数组.cpp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\对象数组.cpp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\551班 182055116 谭艺\对象数组.cpp\Debug\对象数组.cpp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\551班 182055116 谭艺\对象数组.cpp\Debug\对象数组.cpp.lib" /MACHINE:X86 "Debug\对象数组.cpp.exe.embed.manifest.res"
+         Debug\stdafx.obj
+         Debug\student.obj
+         "Debug\对象数组.cpp.obj"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\对象数组.cpp.exe.embed.manifest" /manifest "Debug\对象数组.cpp.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\对象数组.cpp.exe.embed.manifest.res" "Debug\对象数组.cpp_manifest.rc" 
+       LinkEmbedManifest:
+         d:\BaiduNetdiskDownload\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\551班 182055116 谭艺\对象数组.cpp\Debug\对象数组.cpp.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\对象数组.cpp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\551班 182055116 谭艺\对象数组.cpp\Debug\对象数组.cpp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\551班 182055116 谭艺\对象数组.cpp\Debug\对象数组.cpp.lib" /MACHINE:X86 "Debug\对象数组.cpp.exe.embed.manifest.res"
+         Debug\stdafx.obj
+         Debug\student.obj
+         "Debug\对象数组.cpp.obj"
+         对象数组.cpp.vcxproj -> D:\551班 182055116 谭艺\对象数组.cpp\Debug\对象数组.cpp.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\对象数组.cpp.unsuccessfulbuild”。
+         正在对“Debug\对象数组.cpp.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\551班 182055116 谭艺\对象数组.cpp\对象数组.cpp\对象数组.cpp.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.14

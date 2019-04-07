@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "对象数组.cpp", "对象数组.cpp\对象数组.cpp.vcxproj", "{294A5CF7-56BA-43F5-B710-3187F3CC0C4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{294A5CF7-56BA-43F5-B710-3187F3CC0C4B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{294A5CF7-56BA-43F5-B710-3187F3CC0C4B}.Debug|Win32.Build.0 = Debug|Win32
+		{294A5CF7-56BA-43F5-B710-3187F3CC0C4B}.Release|Win32.ActiveCfg = Release|Win32
+		{294A5CF7-56BA-43F5-B710-3187F3CC0C4B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
