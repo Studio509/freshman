@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int sum(int l[],int n)
+{
+   int i,sum=0;
+   for(i=0;i<n;i++)
+   sum=sum+l[i];
+   return sum;
+}
+int main()
+{
+	int a[10],m,i;
+	cout<<"请输入数组元素的个数:"<<endl;
+	cin>>m;
+	cout<<"请输入数组:"<<endl;
+	for(i=0;i<m;i++)
+	cin>>a[i];
+	sum(a,m);
+	cout<<"和为:"<<endl;
+	cout<<sum(a,m)<<endl;
+	return 0;
+}
