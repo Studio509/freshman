@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a[50],b[50],c[50],i,n;
+	cout<<"请输入要输入的组数:"<<endl;
+	cin>>n;
+	cout<<"请输入a，b和c:"<<endl;
+	for(i=0;i<n;i++)
+	cin>>a[i]>>b[i]>>c[i];
+	for(i=0;i<n;i++)
+	if(a[i]+b[i]>c[i])
+		cout<<"case #x: true"<<endl;
+	else
+		cout<<"case #x: false"<<endl;
+	return 0;
+}
