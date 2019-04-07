@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x,n=0,i;
+	cout<<"请输入一个小于1000的整数:"<<endl;
+	cin>>x;
+	for(i=0;;i++)
+	if(x%2==0)
+		x=x/2;
+	else if(x==1)
+		break;
+	else
+		x=(3*x+1)/2;
+	cout<<"x经"<<i<<"步才能得到n=1"<<endl;
+	return 0;
+}
