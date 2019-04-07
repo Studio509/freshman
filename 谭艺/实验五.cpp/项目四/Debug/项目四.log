@@ -1,0 +1,30 @@
+﻿生成启动时间为 2018/11/28 23:29:22。
+     1>项目“E:\实验五\项目四\项目四\项目四.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\项目四.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\项目四.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\BaiduNetdiskDownload\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "项目四.cpp"
+         项目四.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\项目四.exe.embed.manifest.res" "Debug\项目四_manifest.rc" 
+       Link:
+         d:\BaiduNetdiskDownload\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\实验五\项目四\Debug\项目四.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\项目四.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\实验五\项目四\Debug\项目四.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\实验五\项目四\Debug\项目四.lib" /MACHINE:X86 "Debug\项目四.exe.embed.manifest.res"
+         "Debug\项目四.obj"
+       Manifest:
+         正在删除文件“Debug\项目四.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\项目四.exe.embed.manifest" /manifest "Debug\项目四.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\项目四.exe.embed.manifest.res" "Debug\项目四_manifest.rc" 
+       LinkEmbedManifest:
+         d:\BaiduNetdiskDownload\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\实验五\项目四\Debug\项目四.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\项目四.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\实验五\项目四\Debug\项目四.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\实验五\项目四\Debug\项目四.lib" /MACHINE:X86 "Debug\项目四.exe.embed.manifest.res"
+         "Debug\项目四.obj"
+         项目四.vcxproj -> E:\实验五\项目四\Debug\项目四.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\项目四.unsuccessfulbuild”。
+         正在对“Debug\项目四.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\实验五\项目四\项目四\项目四.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.29
