@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a[10],da,b[10],db,i,n1,n2,pa=0,pb=0,z;
+	cout<<"请输入第一个字符串的长度:"<<endl;
+	cin>>n1;
+	cout<<"请输入第二个字符串的长度:"<<endl;
+	cin>>n2;
+	cout<<"请输入第一串数字:"<<endl;
+	for(i=0;i<n1;i++)
+	cin>>a[i];
+	cout<<"请输入第一个字符串要判断的数字:"<<endl;
+	cin>>da;
+	cout<<"请输入第二串数字:"<<endl;
+	for(i=0;i<n2;i++)
+	cin>>b[i];
+	cout<<"请输入第二个字符串要判断的数字:"<<endl;
+	cin>>db;
+	for(i=0;i<n1;i++)
+		if(a[i]==da)
+          pa=pa*10+a[i];
+	for(i=0;i<n2;i++)
+	    if(b[i]==db)
+          pb=pb*10+b[i];
+    z=pa+pb;
+	cout<<"pa+pb="<<z;
+	return 0;
+}
+
