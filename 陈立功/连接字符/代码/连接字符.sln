@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "连接字符", "连接字符\连接字符.vcxproj", "{03679ACE-2DA7-44A8-8F4E-2ACCA545CF1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03679ACE-2DA7-44A8-8F4E-2ACCA545CF1B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03679ACE-2DA7-44A8-8F4E-2ACCA545CF1B}.Debug|Win32.Build.0 = Debug|Win32
+		{03679ACE-2DA7-44A8-8F4E-2ACCA545CF1B}.Release|Win32.ActiveCfg = Release|Win32
+		{03679ACE-2DA7-44A8-8F4E-2ACCA545CF1B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
