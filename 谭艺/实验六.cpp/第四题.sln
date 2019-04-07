@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第四题", "第四题\第四题.vcxproj", "{DB1C8D9E-6AA6-4003-BA87-DD295B5B7DEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB1C8D9E-6AA6-4003-BA87-DD295B5B7DEE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB1C8D9E-6AA6-4003-BA87-DD295B5B7DEE}.Debug|Win32.Build.0 = Debug|Win32
+		{DB1C8D9E-6AA6-4003-BA87-DD295B5B7DEE}.Release|Win32.ActiveCfg = Release|Win32
+		{DB1C8D9E-6AA6-4003-BA87-DD295B5B7DEE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
