@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,q,r;
+	cout<<"请输入一个大于0且小于1000的整数和一个不为0的整数:"<<endl;
+	cin>>a;
+	cin>>b;
+	q=a/b;
+	r=a%b;
+	cout<<"商   余数"<<endl;
+	cout<<q<<"  "<<r<<endl;
+	return 0;
+}
