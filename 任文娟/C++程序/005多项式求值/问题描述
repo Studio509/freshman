@@ -26,5 +26,3 @@ int main()
     printf("%.1f\n", f(n, a, x));
     return 0;
 }
-
-/* 你的代码将被嵌在这里 */
