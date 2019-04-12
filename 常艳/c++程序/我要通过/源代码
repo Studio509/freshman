@@ -1,0 +1,39 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+    int i,n,q,w,e,r;
+    string m[100],x[100],a[100],b[100],c[100];
+	cout<<"输入x中A的个数"<<endl;
+	cin>>q;
+	for(i=1;i<=q;i++)
+	{cout<<'A';}
+	cout<<endl;
+	cout<<"输入a中A的个数"<<endl;
+	cin>>w;
+	for(i=1;i<=w;i++)
+	{cout<<'A';}
+	cout<<endl;
+	cout<<"输入b中A的个数"<<endl;
+	cin>>e;
+	for(i=1;i<=e;i++)
+		{cout<<'A';}
+	cout<<endl;
+	cout<<"输入c中A的个数"<<endl;
+	cin>>r;
+	for(i=1;i<=r;i++)
+		{cout<<'A';}
+	cout<<endl;
+cout<<"请输入字符串的个数"<<endl;
+cin>>n;
+cout<<"请输入字符串"<<endl;
+for(i=0;i<n;i++)
+cin>>m[i];
+for(i=0;i<n;i++)
+	if(m[i]==x[i]+"PAT"+x[i]||m[i]==a[i]+"P"+b[i]+"T"+c[i]||m[i]==a[i]+"P"+b[i]+"AT"+c[i]+a[i])
+      cout<<"YES"<<endl;
+    else 
+      cout<<"NO"<<endl;
+    return 0;
+}
