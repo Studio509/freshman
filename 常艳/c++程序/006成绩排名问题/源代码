@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+struct student
+{
+  char name[10];
+  char num[10];
+  int grade;
+}; 
+int main() 
+{
+  struct student st[100];
+  int n,i,max,min;
+  cout<<"请输入学生的个数"<<endl;
+  cin>>n;
+  for(i=0;i<n;i++)
+  {
+    cin>>st[i].name>>st[i].num>>st[i].grade;
+  }
+  cout<<endl;
+  max=st[0].grade;
+  min=st[0].grade;
+  int x1=0,x2=0;
+  for(i=1;i<n;i++)
+  {
+    if(st[i].grade>max)
+    {
+      max=st[i].grade;
+      x1=i;
+    }
+    if(st[i].grade<min)
+    {
+      min=st[i].grade;
+      x2=i;
+    }
+  }
+  cout<<st[x1].name<<" "<<st[x1].num<<endl;
+  cout<<st[x2].name<<" "<<st[x2].num<<endl;
+  return 0;
+}
