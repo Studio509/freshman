@@ -5,7 +5,7 @@
 using namespace std;
 void main()
 {   
-	int m,n,a=0,b=0,i,x=0;
+    int m,n,a=0,b=0,i,x=0;
     string A,B,DA,DB;
     cin>>A;
     cin>>DA;
