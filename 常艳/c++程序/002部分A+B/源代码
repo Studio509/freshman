@@ -1,0 +1,40 @@
+#include <iostream>
+#include <string>
+#include <cstring>
+#include <cstdlib>//atoi函数的头文件
+using namespace std;
+void main()
+{   
+	int m,n,a=0,b=0,i,x=0;
+    string A,B,DA,DB;
+    cin>>A;
+    cin>>DA;
+    cin>>B;
+    cin>>DB;
+	 for(i=0;i<A.length();i++)//计数
+	   {
+		   if(DA[0]==A[i])
+		   a++;
+	   }
+	 for(i=0;i<B.length();i++)//计数
+	   {
+		   if(DB[0]==B[i])
+		         b++;
+	   } 
+	 m=atoi(DA.c_str());//将DA中的子串转换为数值型并赋值给m
+	 n=atoi(DB.c_str());//将DB中的子串转换为数值型并赋值给n
+	 for(i=1;i<a;i++)//计算m,注意i从1开始
+	  {
+	   m=m*10+atoi(DA.c_str());
+	  }
+	 for(i=1;i<b;i++)//计算n，注意i从1开始
+	  {
+		n=n*10+atoi(DB.c_str());
+	   }
+	 if(a==0)
+		 m=0;
+	 if(b==0)
+		 n=0;
+    x=m+n;
+    cout<<x<<endl;
+}
