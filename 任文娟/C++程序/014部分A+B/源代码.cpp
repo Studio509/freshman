@@ -10,18 +10,18 @@ int main()
     for(i=0;i<A.length();i++)
     {
         if(A[i]-'0'==Da)
-		{
-			sum1=sum1+Da*count1;
-            count1=count1*10;
-		}
+	{
+		sum1=sum1+Da*count1;
+                count1=count1*10;
+	}
     }
     for(j=0;j<B.length();j++)
     {
         if(B[j]-'0'==Db)
-		{
-			sum2=sum2+Db*count2;
-            count2*=10;
-		}
+	{
+		sum2=sum2+Db*count2;
+                count2*=10;
+	}
     }
     cout<<sum1+sum2<<endl;
     return 0;
