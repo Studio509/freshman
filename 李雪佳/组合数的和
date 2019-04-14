@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n,i,x[10],t=0;
+	cout<<"请输入n的值:";
+	cin>>n;
+	cout<<"请输入n个数:";
+	for(i=0;i<n;i++)
+		cin>>x[i];
+	 for(i=0;i<n;i++)
+		 for(int j=0;j<n;j++)
+			 if(i!=j)
+			   t=t+x[i]*10+x[j];
+	 cout<<t;
+	 return 0;
+}
