@@ -1,0 +1,23 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	int n,m=0,m1=0,m2=0,n1=0,n2=0,n3=0,max;
+	cin>>n;
+	string x[10],y[10];
+	for(int i=0;i<n;i++)
+		cin>>x[i]>>y[i];
+	for(int i=0;i<n;i++)
+		{
+			if(x[i]==y[i])
+			       m++;
+	        if(x[i]=="B"&&y[i]=="C"||x[i]=="C"&&y[i]=="J"||x[i]=="J"&&y[i]=="B")
+			       m1++;
+			if(x[i]=="B"&&y[i]=="J"||x[i]=="C"&&y[i]=="B"||x[i]=="J"&&y[i]=="C")
+				   m2++;
+	    }
+	cout<<m1<<" "<<m<<" "<<m2<<endl;
+	cout<<m2<<" "<<m<<" "<<m1<<endl;
+	return 0;
+}
