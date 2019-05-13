@@ -18,5 +18,6 @@ public class integer {
 		     System.out.print("S");
 		  for(k=1;k<=c;k++)
 			  System.out.print(k);
+		  zs.close();
 	}
 }
