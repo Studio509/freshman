@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.*;
 import java.io.*;
-
+@SuppressWarnings("unused")
 public class integer {
 
 	public static void main(String[] args) {
@@ -21,3 +21,4 @@ public class integer {
 		  zs.close();
 	}
 }
+
