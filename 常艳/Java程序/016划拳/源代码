@@ -1,0 +1,42 @@
+import java.util.Scanner;
+public class Game {
+	@SuppressWarnings("unused")
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		@SuppressWarnings("resource")
+		Scanner sc=new Scanner(System.in); 
+		int n=sc.nextInt();
+		int jh=0;
+		int yh=0;
+		J[] j=new J[n];
+		for(int i=0;i<n;i++)
+		{
+			j[i]=new J(sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt());
+		if(j[i].sum==j[i].jhua&&j[i].sum!=j[i].yhua)
+		{
+			yh++;
+		}
+		if(j[i].sum!=j[i].jhua&&j[i].sum==j[i].yhua)
+		{
+			jh++;
+		}
+		}
+		System.out.println(jh+" "+yh);
+	}
+}
+class J
+{
+	int jhan;
+	int jhua;
+	int yhan;
+	int yhua;
+	int sum;
+	J(int jhan,int jhua,int yhan,int yhua)
+	{
+		this.jhan=jhan;
+		this.jhua=jhua;
+		this.yhan=yhan;
+		this.yhua=yhua;
+		this.sum=jhan+yhan;
+	}
+}
